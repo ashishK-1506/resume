@@ -1,0 +1,86 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.phone {
+    text-decoration: underline;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-left: 10px solid #5d6975;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #0e1113;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+h2 {
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job p {
+    margin: 0;
+    color: #666;
+}
+
+.skills-list, .tools-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list p, .tools-list p {
+    background: #5d6975;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 0.8em;
+}
